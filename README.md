@@ -1,94 +1,107 @@
-  <h3 align="center">Port3Dfolio</h3>
+ <h1 align="center">🚀 Port3Dfolio</h1>
 
-## 📋 <a name="table">Table of Contents</a>
+<p align="center">
+  A modern 3D interactive portfolio built with Three.js, React, and GSAP.<br />
+  Designed to showcase my skills and projects in an immersive, elegant interface.
+</p>
 
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 🔗 [Assets & Snippets](#links)
+<p align="center">
+  <a href="https://port3dfolio.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Live%20Demo-%F0%9F%94%8D-blue?style=for-the-badge" alt="Live Demo" />
+  </a>
+</p>
 
-## <a name="introduction">🤖 Introduction</a>
+---
 
-The 3D Portfolio project is a highly engaging personal website that features animated 3D scenes, smooth camera transitions, interactive model showcases, and responsive design. It’s ideal for developers, designers, or freelancers looking to stand out in the digital crowd.
+## 📑 Table of Contents
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+1. [📌 Introduction](#introduction)
+2. [🧰 Tech Stack](#tech-stack)
+3. [✨ Features](#features)
+4. [⚡ Quick Start](#quick-start)
+5. [📂 Assets & Snippets](#assets)
 
-- Three.js
-- React Three Fiber
-- Drei
-- GSAP
-- Tailwind CSS
-- Vite
-- React
+---
 
-## <a name="features">🔋 Features</a>
+## 🤖 Introduction
 
-### Features of the 3D Portfolio Project
+**Port3Dfolio** is a fully responsive, 3D-powered portfolio built for developers, designers, and creatives. Featuring **animated 3D models**, **scroll-triggered transitions**, and a sleek UI, it's perfect to make your online presence unforgettable.
 
-👉 Animated 3D models and reveal animations
+> Whether you're showcasing your projects, skills, or offering freelance services—Port3Dfolio is designed to impress.
 
-👉 Realistic lighting and shadows
+---
 
-👉 GSAP-powered scroll interactions
+## ⚙️ Tech Stack
 
-👉 Responsive design with Tailwind CSS and Flexbox/Grid
+Built with a powerful modern stack:
 
-👉 Micro Interactions
+- **Three.js** – 3D rendering engine
+- **React Three Fiber** – React bindings for Three.js
+- **Drei** – Useful helpers for R3F
+- **GSAP** – Smooth scroll animations and transitions
+- **Tailwind CSS** – Utility-first responsive styling
+- **Vite** – Fast build tool and development server
+- **React** – UI component library
 
-👉 Multi-section layout (About, Projects, Contact)
+---
 
-👉 Mobile optimized 3D experience
+## 🔋 Features
 
-and many more, including code architecture and reusability.
+✅ Animated 3D models and reveal effects  
+✅ Realistic lighting and shadow rendering  
+✅ Smooth scroll interactions powered by GSAP  
+✅ Fully responsive and mobile-friendly layout  
+✅ Modular component structure (About, Projects, Contact)  
+✅ Micro-interactions and hover effects  
+✅ EmailJS integration for contact form  
+✅ Clean and scalable codebase
 
-## <a name="quick-start">🤸 Quick Start</a>
+---
 
-Follow these steps to set up the project locally on your machine.
+## 🤸 Quick Start
 
-**Prerequisites**
+Follow these instructions to set up the project locally:
 
-Make sure you have the following installed on your machine:
+### ✅ Prerequisites
+
+Ensure the following are installed on your system:
 
 - [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
 
-**Cloning the Repository**
-
-```bash
-git clone https://github.com/adrianhajdin/3d-portfolio.git
-cd 3d-portfolio
-```
-
-**Installation**
-
-Install the project dependencies using npm:
+### 🚀 Installation
 
 ```bash
+git clone https://github.com/CHBNDJ/Port3Dfolio.git
+cd Port3Dfolio
 npm install
 ```
 
-**Set Up Environment Variables**
+### 🔐 Environment Variables
 
-Create a new file named `.env` in the root of your project and add the following content:
+Create a `.env` file in the root directory and add:
 
 ```env
-VITE_APP_EMAILJS_SERVICE_ID=
-VITE_APP_EMAILJS_TEMPLATE_ID=
-VITE_APP_EMAILJS_PUBLIC_KEY=
+VITE_APP_EMAILJS_SERVICE_ID=your_service_id
+VITE_APP_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_APP_EMAILJS_PUBLIC_KEY=your_public_key
 ```
 
-Replace the placeholder values with your actual **[EmailJS](https://www.emailjs.com/)** credentials.
+> 💡 You can get these keys by signing up at [EmailJS](https://www.emailjs.com/).
 
-**Running the Project**
+### ▶️ Run the App
 
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173/) in your browser to view the project.
+Visit **[http://localhost:5173](http://localhost:5173)** to explore your portfolio!
 
-## <a name="links">🔗 Assets and Snippets</a>
+---
 
-Assets and snippets used in the project can be found in the `/public` folder.
+## 🔗 Assets & Snippets
+
+All static assets (images, 3D models, icons, etc.) and utility snippets are located in the `/public` folder. Customize freely.
+
+---
