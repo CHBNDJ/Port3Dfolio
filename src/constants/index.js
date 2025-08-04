@@ -121,13 +121,13 @@ const techStackIcons = [
 
 const expCards = [
   {
-    title: "Self-Taught Web Developer",
-    logoPath: "/images/logo1.png",
-    date: " April 2023 - January 2024",
+    title: "React Native Projects",
+    logoPath: "/images/logo3.png",
+    date: "April 2025 - Present",
     responsibilities: [
-      "Acquired solid foundation in HTML, CSS, JavaScript and Git.",
-      "Built personal projects to practice responsive and accessible web design.",
-      "Deployed projects live on GitHub and GitHub Pages.",
+      "Started learning React Native & Expo to build cross-platform mobile applications.",
+      "Applied React knowledge to mobile development for a seamless transition.",
+      "Focused on understanding mobile-specific optimizations and best practices.",
     ],
   },
   {
@@ -141,13 +141,13 @@ const expCards = [
     ],
   },
   {
-    title: "React Native Projects",
-    logoPath: "/images/logo3.png",
-    date: "April 2025 - Present",
+    title: "Self-Taught Web Developer",
+    logoPath: "/images/logo1.png",
+    date: " April 2023 - January 2024",
     responsibilities: [
-      "Started learning React Native & Expo to build cross-platform mobile applications.",
-      "Applied React knowledge to mobile development for a seamless transition.",
-      "Focused on understanding mobile-specific optimizations and best practices.",
+      "Acquired solid foundation in HTML, CSS, JavaScript and Git.",
+      "Built personal projects to practice responsive and accessible web design.",
+      "Deployed projects live on GitHub and GitHub Pages.",
     ],
   },
 ];

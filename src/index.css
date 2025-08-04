@@ -56,6 +56,7 @@ section {
   }
 
   /* General Grids */
+
   .grid-base {
     @apply grid grid-cols-1;
   }
